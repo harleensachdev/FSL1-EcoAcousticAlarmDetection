@@ -2,10 +2,14 @@ import torch
 import os
 from datetime import datetime
 
-DATA_DIR = os.path.join(os.getcwd(), "data")
-AUDIO_DIR = os.path.join(DATA_DIR, "audio_files")
-SPECTROGRAM_DIR = os.path.join(DATA_DIR, "spectrograms")
-METADATA_PATH = os.path.join(DATA_DIR, "metadata.csv")
+
+DATA_DIR = "/Users/caramelloveschicken/Desktop/data"
+AUDIO_DIR = "/Users/caramelloveschicken/Desktop/data/training/audio_files"
+SPECTROGRAM_DIR = "/Users/caramelloveschicken/Desktop/data/training/spectrograms"
+METADATA_PATH = "/Users/caramelloveschicken/Desktop/data/training/results/FS1-metadata.csv"
+EVALUATEDATAPATH = "/Users/caramelloveschicken/Desktop/data/Botanical Garden/Small-BG2/Small-BG2-Results/small-bg2-fs1-results.csv"
+EVALUATEAUDIO_DIR  = "/Users/caramelloveschicken/Desktop/data/Botanical Garden/Small-BG2/Small-BG2-data"
+
 
 # Audio processing
 SAMPLE_RATE = 22050
